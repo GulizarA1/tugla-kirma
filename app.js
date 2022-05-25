@@ -167,7 +167,7 @@ brickcollition();
 
     },1);
 };
-let boardbounds= game=getBoundingClient();
+let boardbounds= game.getBoundingClient();
 window.addEventListener("keydown",(e)=>{
 
 if (e.key==="ArrowRight" && 
